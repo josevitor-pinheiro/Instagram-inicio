@@ -1,0 +1,27 @@
+.fotter-container {
+    display: flex;
+    flex-wrap: wrap;
+    bottom: 10%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+.fotter-container a {
+  margin: 10px;
+  font-weight: 400;
+  color: rgba(var(--f52, 142, 142, 142), 1);
+  text-decoration: none;
+  font-size: 12px;
+}
+
+@media only screen and (max-width: 425px) {
+  .fotter-container {
+    display: flex;
+    width: 80%;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}

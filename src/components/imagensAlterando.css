@@ -1,0 +1,30 @@
+.Imagems-container {
+    display: flex;
+    margin-top: 5%;
+    margin-right: 5px;
+    max-width: 582px;
+    height: auto;
+    width: auto;
+    max-width: 500px;
+}
+
+.ImagemsAlterando {
+    position: absolute;
+    margin-top: 63px;
+    margin-left: 143px;
+    padding: 1px;
+    background-color: black;
+    border-radius: 5%;
+    max-width: 182px;
+    height: auto;
+    width: auto;
+}
+
+
+
+@media only screen and (max-width: 768px) { 
+    .Imagems-container {
+        display: none;
+    }
+}
+
