@@ -1,8 +1,6 @@
 import Input from "./Input";
-import Button from "./Button";
 
 import InstagramImg from "./img/instagram-img.png";
-import IconeFace from "./img/icons8-facebook-novo.svg";
 
 import "./login.css";
 
@@ -19,7 +17,6 @@ function Login() {
         <span>Entrar com facebook</span>
       </button>
       <button id="button-Esqueceu">Esqueceu a senha?</button>
-      <a href="_" id="aSenha"></a>
     </div>
   );
 }
